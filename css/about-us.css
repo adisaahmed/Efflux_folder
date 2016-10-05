@@ -1,0 +1,104 @@
+@import 'https://fonts.googleapis.com/css?family=Cormorant+Garamond';
+*{
+    box-sizing: border-box;
+    text-decoration: none !important;
+}
+body{
+    position: relative;
+    margin: 0px;
+    z-index: 100;
+    margin: 0px !important;
+    font-family: 'Cormorant Garamond', serif;
+}                                                                                                                                                                                                                                                                                                                                
+header{
+    background:#67A1FF;
+    height: 70px;
+    width: 100%;
+    border-bottom: 0px;
+    z-index: 10;
+    position: fixed;
+    font-family: 'Cormorant Garamond', serif;
+    box-shadow:  0 6px 5px 0 #999;
+}
+.logo{
+    float: left;
+    padding-top: 8px;
+}
+
+.homewrap{
+    float: right;
+    display: inline;
+    margin-bottom: 0px;
+    line-height: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.social_media_icon {
+    color: #000;
+    padding-top: 20px;
+    font-size: 25px !important;
+    text-decoration: none !important;
+}
+.social_media_icon:hover {
+    color: #0000ff;
+}
+
+.wrap{
+    display: inline;
+    padding: 5px;
+    color: #000 !important;
+}
+.act{
+    color: #000 !important;
+    padding: 23px 20px;
+}
+.act:hover{
+    background: #0000FF;
+    color: #fff !important;
+    text-decoration: none !important;
+    
+}
+
+.tabwrapper{
+    margin:-20px;
+    margin-left: 1px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 25px;
+}
+
+.right{
+    float:right;
+    display :inline-block;
+    margin: 0px;
+    height: 80px;
+    line-height: 84px;
+    padding-top: 10px;
+}
+.list{
+    display: inline;
+    text-decoration: none;
+    margin-left: 33px;
+    text-align: center;
+    font-style:courier;
+    }
+
+
+
+
+}
+footer {
+    height: 50px;
+    line-height: 50px;
+    background-color: #000;
+    margin-top: 200px !important;
+    margin-bottom: 0px !important;
+}
+p {
+    margin-bottom: 0px !important;
+}
+.footer_p {
+    text-align: center;
+    color: #fff;
+}

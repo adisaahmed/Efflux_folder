@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Efflux - Home</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="shortcut icon" type="image/png" href="favicon.png"/>
+	<link rel="shortcut icon" type="image/png" href="favicon.png"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
+    <link href="css/full-slider.css" rel="stylesheet">
+
+	<script>
+	if (window.location.search.indexOf('formsent=yes') > -1) {
+	    alert('Submitted successfully! We will get back soon');
+	} 
+	</script>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="logo">
+				<a href="index.html"><img src="images/effluxlogo.png" style="width:130px; height:70px;"></a>
+			</div>
+			
+			<div class="right">
+				<ul class="tabwrapper">
+					<li class="list">
+						<a href="http://www.facebook.com/effluxcompany" target="_blank">
+							<i class="fa fa-facebook-square social_media_icon" aria-hidden="true"></i>
+						</a>
+					</li>
+					<li class="list">
+						<a href="http://www.twitter.com/EffluxCompany" target="_blank">
+							<i class="fa fa-twitter-square social_media_icon" aria-hidden="true"></i>
+						</a>
+					</li>
+					<li class="list">
+						<a href="#services">
+							<i class="fa fa-instagram social_media_icon" aria-hidden="true"></i>
+						</a>
+					</li>
+					<li class="list">
+						<a href="#team">
+							<i class="fa fa-youtube-play social_media_icon" aria-hidden="true"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="container_home">
+				<ul class="homewrap">
+				 <li class="wrap"><a class="act" href="index.html" style="background: #fff; color: #000 !important;">Home</a></li>
+				  <li class="wrap"><a class="act" href="contact.html">contact us</a></li>
+				  <!-- <li class="wrap"><a class="act" href="Gallery.html">Gallery</a></li>
+				  <li class="wrap"><a class="act" href="about us.html">About us</a></li> -->
+				</ul>
+			</div>
+			<div class="desc">
+				
+			</div>
+		</div>
+	</header>
+
+ 	<header  id="myCarousel" class="carousel slide" style="z-index: 0;">        <!-- Indicators -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('images/home.jpg');"></div>
+                <div class="carousel-caption" style="position:absolute; top: 100px; height: 200px;">
+                    <h2 class="slider_header">CUSTOM WEBSITES</h2>
+                    <ul>
+                    	<li class="list_styles">wordpress</li>
+                    	<li class="list_styles">php</li>
+                    	<li class="list_styles">html</li>
+                    	<li class="list_styles">css</li>
+                    	<li class="list_styles">javascript</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('images/compp.jpg');"></div>
+                <div class="carousel-caption" style="position:absolute; top: 100px; height: 200px;">
+                    <h2 class="slider_header">AND EVERYTHING IN-BETWEEN</h2>
+                    <P>
+                    	<li class="list_styles">seo</li>
+                    	<li  class="list_styles">copywriting</li>
+                    	<li  class="list_styles">website content</li>
+                    	<li  class="list_styles">mobile apps</li>
+                    	<li  class="list_styles">web apps</li>
+                    </P>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('images/code.jpg');"></div>
+                <div class="carousel-caption" style="position:absolute; top: 100px; height: 200px;">
+                    <h2 class="slider_header">ALL DONE REMOTELY</h2>
+                    <p class="list_styles">
+                    	SUPER FAST WITH GUARANTEED RESULTS
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+	<div class="formwrapper clearfix">
+		<div class="formwrap clearfix">
+			<div class="formdetails">
+				<div class="maincontent">
+					<p class="maincontent-P">
+						<span class="codeimg">
+							<i class="fa fa-user-md" aria-hidden="true" style="font-size:60px;"></i>
+						</span> <br>
+						<h2 class="process_head">Describe your project</h2>
+						<p class="process_passage">
+							Take 2 minutes to tell us about your project. Is it a design, website, mobile application or content writing project and how urgent is it?
+						</p>
+					</p>
+					<p class="maincontent-P">
+						<span class="codeimg"> 
+							<i class="fa fa-phone" aria-hidden="true" style="font-size:60px;"></i>
+						</span> <br>
+						<h2 class="process_head">Talk to an expert</h2>
+						<p class="process_passage">
+							We'll match you with an expert to brainstorm with and help you put together a work plan specifying deliverables, team and an affordable budget.
+						</p>
+					</p>
+					<p class="maincontent-P">
+						<span class="codeimg">
+							<i class="fa fa-check" aria-hidden="true" style="font-size:60px;"></i>
+						</span> <br>
+						<h2 class="process_head">Get the work done</h2>
+						<p class="process_passage">
+							Sit back, relax and get bi-weekly updates as your project is delivered on time. We are so confident that we give you money-back guarantee.
+						</p>
+					</p>
+				</div>
+			</div>
+			<div class="formgroup">
+				<form action="php/process_form.php" method="POST">
+					<div class="label_input_wrap">
+						<label>what are you looking to build ?</label><br>
+						<input type="checkbox" name="whatwearebuilding" value="website" style="margin-right: 5px;"><span style="margin-right: 20px;">website</span>
+						<input type="checkbox" name="whatwearebuilding" value="web application" style="margin-right: 5px;"><span style="margin-right: 20px;">web application</span>
+						<!-- <input type="checkbox" name="whatarewebuilding" value="mobile application" style="margin-right: 5px;"><span style="margin-right: 20px;">mobile application</span> -->
+					</div>
+
+					<div class="label_input_wrap">
+						<label>description</label> <br>
+						<textarea name="description" class="input" rows="4" cols="50" required> </textarea>
+					</div> 
+
+					<div class="label_input_wrap">
+						<label>Whats your budget ?</label> <br>
+						<select name="budget" required class="input">
+							<option value="" selected="selected"> - - - Please Select - - -</option>
+							<option value="25,000-50,000"> &#8358;25,000 - &#8358;50,000</option>
+							<option value="50,000-100,000"> &#8358;50,000 - &#8358;100,000</option>
+							<option value="100,000-150,000"> &#8358;100,000 - &#8358;150,000</option>
+							<option value="150,000-200,000"> &#8358;150,000 - &#8358;200,000</option>
+							<option value="200,000-250,000"> &#8358;200,000 - &#8358;250,000</option>
+							<option value="250,000-300,000"> &#8358;250,000 - &#8358;300,000</option>
+							<option value="300,000-Above"> &#8358;300,000 and Above</option>
+						</select>
+					</div>
+					<div class="label_input_wrap">
+						<label>Timeline</label> <br>
+						<select name="timeline" required class="input">
+							<option value="" selected="selected"> - - - Please Select - - -</option>
+							<option value="4DAYS">4 Days</option>
+							<option value="1WEEK">1 Week</option>
+							<option value="2WEEKS">2 Weeks</option>
+						</select>
+					</div>
+
+					<div class="label_input_wrap clearfix">
+						<div class="left_input_wrap">
+							<label>Firstname</label><br>
+							<input type="text" name="firstname" placeholder="Enter first name"  class="input" required>
+						</div>
+						<div class="right_input_wrap">
+							<label>Lastname</label> <br> 
+							<input type="text" name="lastname" placeholder="Enter last name" class="input" required>
+						</div>
+					</div>
+
+					<div class="label_input_wrap clearfix">
+						<div class="left_input_wrap">
+							<label>Email Address</label><br>
+							<input type="Email" name="email" placeholder="Enter email address"  class="input" required>
+						</div>
+						<div class="right_input_wrap">
+							<label>Phone Number</label> <br>
+							<input type="text" name="pnumber" placeholder="Enter phone number" class="input" required>
+						</div>
+					</div>
+				
+				    <button name="submit"><a href="">Submit</a></button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<p class="footer_p">&#169;Copyright 2016 Efflux . All Rights Reserved</p>
+		</div>
+	</footer>
+	<script src="js/jquery.js"></script>
+	<script src="css/bootstrap/js/bootstrap.min.js"></script>
+	<script>
+	    $('.carousel').carousel({
+	        interval: 5000 //changes the speed
+	    })
+    </script>
+</body>
+</html>

@@ -1,0 +1,246 @@
+@import 'https://fonts.googleapis.com/css?family=Cormorant+Garamond';
+*{
+	box-sizing: border-box;
+	text-decoration: none;
+}
+body{
+    position: relative;
+    margin: 0px;
+    z-index: 100;
+    margin: 0px !important;
+    font-family: 'Cormorant Garamond', serif;
+}                                                                                                                                                                                                                                                                                                                                
+header{
+    background:#67A1FF;
+    height: 80px;
+    width: 100%;
+    border-bottom: 0px;
+    z-index: 10;
+    position: fixed;
+    font-family: 'Cormorant Garamond', serif;
+    box-shadow:  0 2px 10px 0 #999 !important;
+
+}
+.logo{
+	float: left;
+	padding-top: 10px;
+}
+.homewrap{
+	float: right;
+	display: inline;
+    margin-bottom: 0px;
+    line-height: 80px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #fff;
+}
+
+.wrap{
+	display: inline;
+	color: #000 !important;
+}
+.act{
+    color: #000!important;
+    padding: 31px 20px;
+}
+.act:hover{
+	background: #fff;
+	color: #000 ! important;    
+}
+.fa:hover {
+	color: #fff !important;
+}
+.tabwrapper{
+	margin: 0px;
+	margin-left: 1px;
+	height: 80px;
+	line-height: 90px;
+}
+
+.right{
+	float:right;
+	display :inline-block;
+	margin: 0px;
+	height: 80px;
+	line-height: 84px;
+}
+.list{
+	display: inline;
+	text-decoration: none;
+	margin-left: 33px;
+	text-align: center;
+	font-style:courier;
+}
+
+.bannerdiv{
+	height: 500px;
+	width: 100%;
+	background-image: url("../images/compp.jpg");
+    background-repeat:no-repeat;
+    background-size:100% auto;
+    background-position: center;
+}
+
+.formwrapper{
+	width: 80%;
+	position:relative;
+	height: auto;
+	top: -36px;
+	font-family: 'Cormorant Garamond', serif;
+	left: 10%;
+}
+.formwrap{
+	height: auto;
+	top: -200px;
+	position: absolute;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.formdetails{
+	height: 680px!important;
+	float: left;
+	width: 30%;
+	background-color:#0000ff;
+}
+.formgroup{
+	height: 680px!important;
+	float:right;
+	width: 70%;
+	background-color: #ffffff;
+	border: 2px solid #e8e8e8;
+	text-transform: uppercase;
+	right: 30px;
+}
+.maincontent{
+	padding: 40px 30px;
+	color: #ffffff;
+}
+.maincontent-P {
+	height: 60px;
+}
+.main_content {
+	padding: 34px 30px;
+}
+.codeimg{
+	margin-right: 20px;
+	display: block;
+	text-align: center;
+}
+label {
+	color: #000;
+	margin-bottom: 15px;
+}
+.input{
+	width: 100%;
+	height: 50px;
+	border-radius: 5px;
+	border: 2px solid #eaeaea;
+	padding: 5px;
+	outline: none;
+	font-size: 20px;
+	font-style: all;
+	
+}
+.form {
+	margin-bottom: 0px !important;
+	float: right;
+}
+select {
+	width: 100%;
+	height: 35px;
+	color: #555;
+	border-radius: 5px;
+	background-color: #fff;
+	outline: none;
+}
+.slider_header {
+	font-size: 40px;
+	font-weight: 600;
+	letter-spacing: 5px;
+	color: yellow;
+}
+.list_styles {
+	display: inline-block;
+	padding-right: 10px;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 600;
+	color: #dff0d8;
+}
+.designs{
+	font-size: 50px;
+}
+button {
+	height: 40px;
+	float: right;
+	line-height: 40px !important;
+	margin-bottom: 40px !important;																																																																																																																																																																																																																																																																																																																																																																																																																																																																																		0px !important;
+	margin-top: 10px !important;
+	margin-right: 15px !important;
+	width: 150px;
+	border-radius: 5px;
+	border: none;
+	background-color: #0000ff;
+	border-color: #2f98d2;
+}
+a {
+	text-transform: uppercase;
+	text-decoration: none !important;																																																																																																																																																																
+	color: #fff !important;
+	font-weight: 600;
+}
+form {
+	padding: 20px;
+}
+.label_input_wrap {
+	margin-bottom: 20px;
+}
+.left_input_wrap {
+	width: 49%;
+	float: left;
+}
+.right_input_wrap {
+	width: 49%;
+	float: right;
+}
+textarea {
+	max-width: 100%;
+	max-height: 100px;
+	min-height: 100px;
+}
+.process_head {
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																														
+}
+.process_passage{
+	text-align: center;
+	font-weight: bolder;
+	font-size: 15px;
+}
+h2 {
+	margin-top: 0px !important;
+}
+.social_media_icon {
+	color: #000;
+	padding-top: 20px;
+	font-size: 25px !important;
+}
+.social_media_icon:hover {
+	color: #0000ff;
+}
+footer {
+	height: 50px;
+	line-height: 50px;
+	background-color: #000;
+	margin-top: 470px !important;
+	margin-bottom: 0px !important;
+}
+p {
+	margin-bottom: 0px !important;
+}
+.footer_p {
+	text-align: center;
+	color: #fff;
+}
