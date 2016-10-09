@@ -12,7 +12,6 @@ body{
     background-color:#fff!important;
 }                                                                                                                                                                                                                                                                                                                                
 header{
-    background:#67A1FF;
     height: 70px;
 /*    width: 100%;
 *//*    position: fixed;
@@ -129,7 +128,7 @@ header{
 .img_box4{
 /*    border: 3px solid blue;
 */    height: 270px;
-    background-image: url(../images/outsourceit.png.png);
+    background-image: url(../images/outsourceit.png);
     width: 100%;
     display: inline-block;
     margin-bottom: 0px;
