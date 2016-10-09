@@ -21,7 +21,14 @@ mail($to, $subject, $message, $headers);
     $mresult="success";
     return $mresult; 
 }
-
+ function died($error) {
+            // ERROR MESSAGES TO THE USER
+            echo "We are very sorry, but there were error(s) found with the form you submitted. ";
+            echo "These errors appear below.<br /><br />";
+            echo $error."<br /><br />";
+            echo "Please go back and fix these errors.<br /><br />";
+            die();
+        }
 
 
 $Fname_from = $_POST['firstname']; 
@@ -33,9 +40,32 @@ $Checkbox_from = $_POST['whatwearebuilding'];
 $Dropdown_from = $_POST['budget'];
 $Timeline_from = $_POST['timeline'];
 
+
+// MANDATORY FIELDS 
+ $error_message = "";
+        $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
+          if(!preg_match($email_exp,$Email_from)) {
+            $error_message .= 'The email address you entered does not appear to be valid.<br />';
+          }
+            $string_exp = "/^[A-Za-z .'-]+$/";
+          if(!preg_match($string_exp,$Fname_from)) {
+            $error_message .= 'The First name you entered does not appear to be valid.<br />';
+          }
+          $string_exp = "/^[A-Za-z .'-]+$/";
+          if(!preg_match($string_exp,$Lname_from)) {
+            $error_message .= 'The Last name you entered does not appear to be valid.<br />';
+          }
+           $string_exp = "/^(NA|[0-9+-]+)$/";
+          if(!preg_match($string_exp,$Phonenumber_from)) {
+            $error_message .= 'The Phone Number you entered does not appear to be valid.<br />';
+          }
+           if(strlen($error_message) > 0) {
+            died($error_message);
+          }
+
 $from = "EffluxCompany Website <noreply@effluxcompany.com>";
 $to = "EffluxCompany Webmaster <info@effluxcompany.com>";
-$subject = "From EffluxCompany.com Contact Form";
+$subject = "From EffluxCompany.com Process Form";
 $body = "Hi, new entry from the contact form of www.EffluxCompany.com website\n\n 
 FirstName: $Fname_from\n
 LastName: $Lname_from\n
