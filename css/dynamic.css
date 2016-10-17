@@ -11,7 +11,10 @@ body{
     font-family: 'Cormorant Garamond', serif;
 }                                                                                                                                                                                                                                                                                                                                
 header{
-    background:#000;
+    background:#fff;
+    opacity: 0.5;
+    position: fixed;
+    width: 100%;
     height: 70px;
     border-bottom: 0px;
     z-index: 10;
@@ -40,13 +43,16 @@ header{
 .act{
     color: #000 !important;
     padding: 31px 20px;
+    text-decoration: none !important;
 }
 .act:hover{
-    background: yellow;
+    background: blue;
+    padding-top: 22px;
+    padding-bottom: 16px;
 }
 
 .tabwrapper{
-    margin: 0px;
+    margin-top:-16px;
     margin-left: 1px;
     height: 70px;
     line-height: 70px;
@@ -88,7 +94,7 @@ header{
 .img_box4{
 /*    border: 3px solid blue;
 */    height: 270px;
-    background-image: url(../images/outsourceit.png.png);
+    background-image: url(../images/outsourceit.png);
     width: 100%;
     display: inline-block;
     margin-bottom: 0px;
@@ -110,6 +116,8 @@ header{
     width: 26.5%;
     margin-left: 63px;
     margin-bottom: 5px;
+    margin-top: 100px;
+
 }
 .icon{
     padding-right: 20px;
@@ -120,13 +128,14 @@ header{
 .soc{
     text-decoration: none !important;
 }
-footer {
+footer{
+    background-color: #000;
     height: 50px;
     line-height: 50px;
-    background-color: #000;
-    margin-top: 200px !important;
-    margin-bottom: 0px !important;
+    margin-bottom: -91px !important;
+
 }
+
 p {
     margin-bottom: 0px !important;
 }

@@ -11,7 +11,8 @@ body{
     font-family: 'Cormorant Garamond', serif;
 }                                                                                                                                                                                                                                                                                                                                
 header{
-    background:#67A1FF;
+    background:#fff;
+    opacity: 0.7;
     height: 80px;
     width: 100%;
     border-bottom: 0px;
@@ -53,13 +54,14 @@ header{
 .act{
     color: #000 !important;
     padding: 31px 20px;
+    font-weight: bold;
 }
 .act:hover{
-    background: #fff;
+    background: blue;
     color: #000 ! important;    
 }
 .fa:hover {
-    color: #fff !important;
+    color: blue !important;
 }
 .tabwrapper{
     height: 80px;

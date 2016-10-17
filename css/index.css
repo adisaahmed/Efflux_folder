@@ -13,13 +13,24 @@ body{
 header{
     height: 80px;
     width: 100%;
+    background-color: #fff;
+    opacity: 0.5;
     border-bottom: 0px;
     z-index: 10;
     position: fixed;
     font-family: 'Cormorant Garamond', serif;
     box-shadow:  0 2px 10px 0 #999 !important;
-
 }
+.about_dropdown{
+	position: absolute !important;
+  	top: 45px !important;
+}
+
+
+.drop2{
+	color: #000 !important;
+}
+
 .logo{
 	float: left;
 	padding-top: 10px;
@@ -44,11 +55,11 @@ header{
     padding: 31px 20px;
 }
 .act:hover{
-	background: #fff;
-	color: #000 ! important;    
+	background: blue !important;
+	color: #000 !important;    
 }
 .fa:hover {
-	color: #fff !important;
+	color: blue !important;
 }
 .tabwrapper{
 	margin: 0px;
@@ -71,6 +82,13 @@ header{
 	text-align: center;
 	font-style:courier;
 }
+.fill{
+	height: 600px  !important;
+	width: 100%;
+}
+.item{
+	600px !important;
+}
 
 .bannerdiv{
 	height: 500px;
@@ -90,11 +108,11 @@ header{
 	left: 10%;
 }
 .formwrap{
-	height: auto;
-	top: -200px;
-	position: absolute;
+	height: 200px;
+	// top: -200px;
+	// position: absolute;
 	width: 100%;
-	margin-bottom: 30px;
+	margin-top: 0px;
 }
 .formdetails{
 	height: 680px!important;
@@ -154,7 +172,7 @@ select {
 	outline: none;
 }
 .slider_header {
-	font-size: 40px;
+	font-size: 30px;
 	font-weight: 600;
 	letter-spacing: 5px;
 	color: yellow;
@@ -227,11 +245,92 @@ h2 {
 .social_media_icon:hover {
 	color: #0000ff;
 }
+.box_wrap{
+	background-color: #000;
+	margin-top: 68px;
+}
+.who_wrap{
+	// border: 2px solid red;
+	height: 200px;
+}
+.who{
+	font-weight: 600;
+	font-size: 30px;
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	text-transform: capitalize;
+	margin-top: 68px;
+
+}
+.uus{
+	font-size: 20px;
+	font-weight: 600;
+	font-family: 'Cormorant Garamond', serif;
+	padding: 10px 15px;
+	text-align: justify;
+
+}
+.ourt{
+	text-align: center;
+	font-size: 30px;
+	// padding-bottom: 20px;
+	font-weight: 600;
+	font-family: 'Cormorant Garamond', serif;
+    margin-top: 129px;
+
+}
+.bio{
+	color: #000;
+	position:absolute;
+	top: 100%;
+	margin-bottom: 20px;
+
+}
+.team{
+	// border: 1px solid grey;
+	height: 200px;
+	width: 100%;
+}
+.team_wrap1{
+	background-image: url(../images/effluxlogo.png);
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	border-radius:5px; 
+	 box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+.team_wrap2{
+	background-image: url(../images/plan.jpg);
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	border-radius:5px;
+	 box-shadow: 1px 2px 4px rgba(0, 0, 0, .5); 
+}
+
+.team_wrap3{
+	
+	background-image: url(../images/typing.jpg);
+	background-repeat: no-repeat;
+	background-size:100% auto;
+	border-radius:5px;
+	 box-shadow: 1px 2px 4px rgba(0, 0, 0, .5); 
+}
+
+.team_wrap4{
+	background-image: url(../images/com.jpg);
+	background-repeat: no-repeat;
+	background-size:100% auto;
+	border-radius: 5px;
+	 box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+
+}
+
+
+
 footer {
 	height: 50px;
 	line-height: 50px;
 	background-color: #000;
-	margin-top: 470px !important;
+	// margin-top: 470px !important;
 	margin-bottom: 0px !important;
 }
 p {
