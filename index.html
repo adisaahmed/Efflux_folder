@@ -35,7 +35,7 @@
 			<div class="right">
 				<ul class="tabwrapper">
 					<li class="list">
-						<a href="http://www.facebook.com/effluxcompany" target="_blank">
+						<a href="https://www.facebook.com/Effluxxcompany?fref=ts" target="_blank">
 							<i class="fa fa-facebook-square social_media_icon" aria-hidden="true"></i>
 						</a>
 					</li>
@@ -44,7 +44,7 @@
 							<i class="fa fa-twitter-square social_media_icon" aria-hidden="true"></i>
 						</a>
 					</li>
-					<li class="list">
+				<!-- 	<li class="list">
 						<a href="#services">
 							<i class="fa fa-instagram social_media_icon" aria-hidden="true"></i>
 						</a>
@@ -53,7 +53,7 @@
 						<a href="#team">
 							<i class="fa fa-youtube-play social_media_icon" aria-hidden="true"></i>
 						</a>
-					</li>
+					</li> -->
 				</ul>
 			</div>
 				<div class="container_home">
@@ -63,7 +63,7 @@
 						  	<a class="act" href="contact.html">contact us</a>
 						  </li>
 						   <li class="wrap dropdown">
-						   		<a class="act"  href="About Us.html">
+						   		<a class="act"  href="#about">
 						   			About  Us
 <!-- 						   			<span class="caret"></span>
  -->					   			</a>
@@ -216,11 +216,14 @@
 			</div>
 		</div>
 	</div>
-
+			<div id="about">
+				<h1 class="out">about us</h1>
+			</div>
 	<div class="container" >
 		<div class="row">
 			<div class="col-md-7">
 				<div class="box_wrap">
+
       <!--   <p>Demos: <a href="demo1.html" class="current">1</a><a href="demo2.html">2</a><a href="demo3.html">3</a><a href="demo4.html">4</a>
         <a href="demo5.html">5</a><a href="demo6.html">6</a><a href="demo7.html">7</a><a href="demo8.html">8</a></p> -->
     </div>
@@ -241,12 +244,14 @@
 					<h1 class="who">
 						who we are 
 					</h1>  
-					<p class="uus">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto cumque atque optio sit? Similique, eaque quia, sunt aliquam expedita tempore eius mollitia tenetur alias? Id beatae voluptatibus facilis rerum porro.</p>
+					<p class="uus"> The Efflux Company, we are a young Nigerian website development company with quite an impressive portfolio. We have what we believe is a "Value for Money" pricing for our websites.
+    We build Website and Web Applications that align with your overall digital strategy. Ultimately, our goal is to help you achieve your goals in both the short and long term. We focus on solving problems and we take an interactive approach.
+     Content, interactions and brand decisions are informed and determined by identifiable goals and needs. We're proud of impactful work.</p>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="container">
+	<!-- <div class="container">
 		<div class="row">
 			<h1 class="ourt">OUR TEAM</h1>
 		    <div class="col-md-4">
@@ -273,7 +278,7 @@
 		      	</p>
 		     </div>
 		    </div>
-		   <!--  <div class="col-md-3">
+		    <div class="col-md-3">
 		      <div class="team_wrap4 team">
 		      	
 		      </div>
@@ -294,6 +299,18 @@
 	    $('.carousel').carousel({
 	        interval: 5000 //changes the speed
 	    })
+    </script>
+    <script>
+    $('a[href^="#"]').on('click', function(event) {
+      var target = $( $(this).attr('href') );
+
+      if( target.length ) {
+          event.preventDefault();
+          $('html, body').animate({
+              scrollTop: target.offset().top
+          }, 500);
+      }
+  });
     </script>
 </body>
 </html>

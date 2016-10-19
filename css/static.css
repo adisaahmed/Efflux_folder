@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Cormorant+Garamond';
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 *{
     box-sizing: border-box;
     text-decoration: none !important;
@@ -8,16 +8,17 @@ body{
     margin: 0px;
     z-index: 100;
     margin: 0px !important;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Poppins', sans-serif;
 }                                                                                                                                                                                                                                                                                                                                
 header{
     background:#fff;
     height: 70px;
     border-bottom: 0px;
+    width: 100%;
     position: fixed;
     opacity: 0.5px !important;
     z-index: 10;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Poppins', sans-serif;
     box-shadow:  0 6px 5px 0 #999;
     margin-bottom: 30px;
 }
@@ -47,8 +48,9 @@ header{
 }
 .act:hover{
     background: blue;
-    padding-top: 18px;
-    padding-bottom: 10px;
+    color: #fff !important;
+    padding-top: 31px;
+    padding-bottom: 21px;
 }
 
 .tabwrapper{
