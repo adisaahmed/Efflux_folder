@@ -27,7 +27,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="js/SmoothScroll.min.js"></script>
 <script src="js/modernizr.js"></script> <!-- Modernizr -->
 <!-- /js files -->
+<script>
+		if (window.location.search.indexOf('formsent=yes') > -1) {
+			alert('Submitted successfully! We will get back soon');
+		} 
+	</script>
 </head>
+
 <body data-spy="scroll" data-offset="0" data-target="#navigation">
 <!-- Navigation -->
 <section class="cd-section">
@@ -61,7 +67,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
  -->		</div>
 		<div class="banner-info">
 			<h1>Welcome To Efflux</h1>
-			<h3>Contact Us For The Best Website</h3>
+			<h3>Contact Us For The Best Websites</h3>
 	    </div>
 	</div> <!--/ .container -->
 </div><!--/ #headerwrap -->
@@ -76,24 +82,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-sm-4 intro-info">
 				<img src="images/post.jpg" alt="">
 				<h4>Post A Job</h4>
-				<p class="justify">Take 2 minutes to tell us about your project. Is it a design, website, mobile application, logo or content writing project and how urgent is it?</p>
+				<p class="justify">Tell us about your project. Is it a website design or web application design or a logo design or content write up? How urgent would you like to have it?</p>
 			</div>
 			<div class="col-sm-4 intro-info">
 				<img src="images/talk.jpg" alt="">
 				<h4>Talk To An Expert</h4>
-				<p class="justify">We'll match you with an expert to brainstorm with and help you put together a work plan specifying deliverables, team and an affordable budget.</p>
+				<p class="justify">We'll match you with an expert to brainstorm and help you put together a workable plan with an affordable budget.</p>
 			</div>
 			<div class="col-sm-4 intro-info">
 				<img src="images/agreed.jpg" alt="">
 				<h4>Get The Work Done</h4>
-				<p class="justify">Sit back, relax and get bi-weekly updates as your project is delivered on time. We are so confident that we give you money-back guarantee.</p>
+				<p class="justify">Sit back, relax and get updates on your project. We are confident based on our expertise and experience that you will be delighted.</p>
 			</div>
 		</div>
 		<div class="row centered postt">
-			 <form name="registration_form" id="registration_form" class="form-horizontal"  enctype="multipart/form-data" action="" method="post">
+			 <form action="php/processform.php" method="POST">
 				<h3 class="your">POST YOUR JOB HERE</h3> <br>
 				<div class="formgroup">
-				<form action="php/process_form.php" method="POST">
+				<form action="php/processform.php" method="POST">
 					<div class="label_input_wrap form_wrap">
 						<label class="lab">What Are You Looking To Build ?</label><br>
 						<input type="radio" name="whatwearebuilding" value="website" style="margin-right: 5px;" required><span style="margin-right: 20px;">website</span>
@@ -117,7 +123,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			           </div>       
 			           <div class="col-sm-6">
 			             	<label class="lab" for="sur">Phone:</label>
-					      	<input type="number" class="form-control" name="Phone number" id="Phone" placeholder="Enter Phone Number" required>
+					      	<input type="number" class="form-control" name="Pnumber" id="Phone" placeholder="Enter Phone Number" required>
 			           </div>
 				    </div>
 				    <div class="form-group form_wrap">
@@ -127,7 +133,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			           </div>
 			            <div class="col-sm-6">
 						  <label for="Timeline">Timeline:</label>
-						  <select class="form-control" id="timeline" required>
+						  <select class="form-control" name="timeline" id="timeline" required>
 						    <option value="" selected="selected"> - - -please select</option>
 						    <option value="4 Days">4 Days</option>
 						    <option value="1 Week">1 Week</option>
@@ -244,7 +250,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<li>
 				<div class="ch-item ch-img-4">
 					<div class="ch-info">
-						<h4>Adisa Ahmed</h4>
+						<h4>Ahmed Adisa</h4>
 						<ul class="social-icons1">
 							<li><a href="https://www.facebook.com/profile.php?id=100000430765020" target="_blank"><i class="fa fa-facebook"></i></a></li>
 							<li><a href="https://twitter.com/AAhmed881" target="_blank"><i class="fa fa-twitter"></i></a></li>
@@ -253,7 +259,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 				</div>
 				<div class="team-details">
-					<h5>Adisa Ahmed</h5>
+					<h5>Ahmed Adisa</h5>
 					<p>CEO</p>
 				</div>
 			</li>
@@ -276,7 +282,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<li>
 				<div class="ch-item ch-img-2">
 					<div class="ch-info">
-						<h4>Adisa Quadri</h5>
+						<h4>Quadri Adisa</h5>
 						<ul class="social-icons1">
 							<li><a href="https://www.facebook.com/quadri.o.adisa" target="_blank"><i class="fa fa-facebook"></i></a></li>
 							<li><a href="https://twitter.com/adisaadegoke54" target="_blank"><i class="fa fa-twitter"></i></a></li>
@@ -285,7 +291,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 				</div>
 				<div class="team-details">
-					<h5>Adisa Quadri</h5>
+					<h5>Quadri Adisa</h5>
 					<p>Web Developer</p>
 				</div>
 			</li>
@@ -294,7 +300,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<li>
 				<div class="ch-item ch-img-4">
 					<div class="ch-info">
-						<h4>Kenneth Kachi</h4>
+						<h4>Kachi Kenneth</h4>
 						<ul class="social-icons1">
 							<li><a href="https://www.facebook.com/will.kashlifa1" target="_blank"><i class="fa fa-facebook"></i></a></li>
 							<li><a href="https://twitter.com/kkkashlifa" target="_blank"><i class="fa fa-twitter"></i></a></li>
@@ -303,7 +309,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 				</div>
 				<div class="team-details">
-					<h5>Kenneth Kachi</h5>
+					<h5>Kachi Kenneth</h5>
 					<p>Web Developer</p>
 				</div>
 			</li>
@@ -312,14 +318,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="ch-info">
 						<h4>Gbenga</h4>
 						<ul class="social-icons1">
-							<li><a href="http://www.effluxcompany.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="http://www.effluxcompany.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="http://www.effluxcompany.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+							<li><a href="https://www.facebook.com/GbengaCoolest" target="_blank"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="https://twitter.com/biggiedad" target="_blank"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/tanimowo-oloko-adegbenga-a5748012a" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 						</ul>
 					</div>
 				</div>
 				<div class="team-details">
-					<h5>Tanimowo Gbenga</h5>
+					<h5>Gbenga Tanimowo-oloko</h5>
 					<p>Web Developer</p>
 				</div>
 			</li>
@@ -398,15 +404,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 		<div class="col-md-7 contact-info">
 			<h4>Drop Us A Line</h4>
-			<form>
+			<form action="php/contact.php" method="POST">
 				<p class="your-para">Your Name :</p>
-				<input type="text" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
+				<input type="text" value="" name="nname" required>
 				<p class="your-para">Your Mail :</p>
-				<input type="text" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
+				<input type="text" value="" name="eemail" required>
 				<p class="your-para">Your Message :</p>
-				<textarea cols="77" rows="6" onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
+				<textarea cols="77" rows="6" name="messages" required></textarea>
 				<div class="send">
-					<input type="submit" value="Send" >
+					<input type="submit" value="Send">
 				</div>
 			</form>
 		</div>
